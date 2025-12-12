@@ -8,5 +8,6 @@ public class Hola {
         String nombre = scanner.nextLine();
         System.out.println("Hola " + nombre);
         Adios adiosObjeto = new Adios(nombre);
+        System.out.println("Saliendo de la aplicación");
     }
 }
